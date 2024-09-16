@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Required for inserting images
+\title{Heurística y Matemáticas}
+\author{Nefertari}
+\date{September 2024}
+\usepackage[backend=biber,style=alphabetic]{biblatex}
+\addbibresource{referencias.bib}
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+\section{Introduction}
+La heurística matemática se refiere al uso de estrategias y métodos no óptimos para resolver problemas complejos de manera eficiente en términos de tiempo y recursos. Aquí hay algunos temas clave en heurística matemática:
+\section{Desarrollo}
+Este tema explora cómo las heurísticas pueden aplicarse para resolver problemas de optimización de rutas, como el famoso Problema del Viajante (TSP, por sus siglas en inglés). El TSP busca encontrar la ruta más corta que permite a un viajante visitar un conjunto de ciudades y regresar a la ciudad de origen.
+\subsection{Definición del problema}
+ Introducción al Problema del Viajante y su importancia en logística y planificación.
+ \subsection{Métodos Heurísticos Comunes}
+ \subsubsection{Algoritmo de Vecino Más Cercano}
+  Selección de la ciudad más cercana no visitada como el siguiente destino.
+ \subsubsection{Algoritmo de Inserción}
+  Inserción de ciudades en la ruta de manera que se minimice el aumento de la distancia total.
+ \subsubsection{Algoritmo de Enfriamiento Simulado}
+ Técnica inspirada en el proceso de enfriamiento de metales para encontrar soluciones aproximadas.
+  \subsection{Comparación con Métodos Exactos}
+  Ventajas y desventajas de usar heurísticas frente a métodos exactos como la programación lineal.
+   \subsection{Aplicaciones Prácticas}
+   Ejemplos de cómo se utilizan estas heurísticas en la vida real, como en la entrega de paquetes y la planificación de rutas de transporte público.
+    \subsection{Desafíos y Futuras Direcciones}
+    Discusión sobre los desafíos actuales en la optimización de rutas y posibles mejoras en los algoritmos heurísticos.
+    \section{Objetivos}
+    El objetivo de este tema es proporcionar una comprensión profunda de cómo las heurísticas pueden ofrecer soluciones eficientes a problemas complejos de optimización de rutas, destacando su aplicabilidad y relevancia en el mundo real.
+\section{Conclusiones}
+El uso de heurísticas en la optimización de rutas, como en el Problema del Viajante, demuestra cómo las estrategias aproximadas pueden ofrecer soluciones prácticas y eficientes a problemas complejos. Aunque las heurísticas no siempre garantizan la solución óptima, su capacidad para proporcionar respuestas rápidas y razonablemente buenas las hace valiosas en aplicaciones del mundo real, como la logística y la planificación de rutas.
+Las heurísticas permiten a los profesionales abordar problemas que de otro modo serían intratables debido a su complejidad computacional. Además, la continua investigación y desarrollo en este campo promete mejorar aún más la precisión y eficiencia de estos métodos, abriendo nuevas posibilidades para su aplicación en diversas industrias.
+
+En resumen, las heurísticas son herramientas poderosas que, al ser combinadas con métodos exactos y técnicas avanzadas, pueden transformar la manera en que resolvemos problemas de optimización y planificación en el día a día.
+\section{Figuras}
+\begin{figure}[ht]
+
+        \centering
+        \includegraphics[width=0.5\linewidth]{0ba59777-b770-418b-a5d7-6874d8985d61-scribble-brain.jpg}
+        \caption{Heuristica}
+        \label{fig:enter-label}
+    \end{figure}
+    \cite{breyer2007heuristica}
+    \cite{matute1999heuristica}
+    \cite{bermeo2016analisis}
+    \printbibliography
+\end{document}
